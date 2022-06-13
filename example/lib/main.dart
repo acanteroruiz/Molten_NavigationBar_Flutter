@@ -40,14 +40,17 @@ class _MyAppState extends State<MyApp> {
             MoltenTab(
               icon: Icon(Icons.search),
               selectedColor: Colors.yellow,
+              unselectedColor: Colors.grey,
             ),
             MoltenTab(
               icon: Icon(Icons.home),
               selectedColor: Colors.yellow,
+              unselectedColor: Colors.grey,
             ),
             MoltenTab(
               icon: Icon(Icons.person),
               selectedColor: Colors.yellow,
+              unselectedColor: Colors.grey,
             ),
           ],
         ),
